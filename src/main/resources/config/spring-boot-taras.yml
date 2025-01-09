@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost/gis_data
+    username: politbook_user_pgsql
+    password: pgSQLPasswordUser_politbook
+    driver-class-name: org.postgresql.Driver
+
+mongo:
+  host: 127.0.0.1
+  port: 27017
+  database: gis
+  username: root
+  password: example
+  authentication-database: admin
