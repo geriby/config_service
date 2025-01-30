@@ -1,12 +1,12 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost/gis_data
+    url: jdbc:postgresql://host.docker.internal/gis_data
     username: politbook_user_pgsql
     password: pgSQLPasswordUser_politbook
     driver-class-name: org.postgresql.Driver
 
 mongo:
-  host: 127.0.0.1
+  host: host.docker.internal
   port: 27017
   database: gis
   username: root
